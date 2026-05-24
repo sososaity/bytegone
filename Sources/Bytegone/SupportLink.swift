@@ -4,7 +4,8 @@ import AppKit
 /// Single source of truth for the support / donation destination.
 /// Update the URL here if the platform changes.
 enum SupportLink {
-    static let url = URL(string: "https://buymeacoffee.com/pakortra")!
+    /// Update this URL to your own donation/support page, or remove the prompt.
+    static let url = URL(string: "https://buymeacoffee.com")!
     static let cta = "Buy me a coffee"
     static let platform = "Buy Me a Coffee"
 

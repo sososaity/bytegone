@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>Bytegone</string>
     <key>CFBundleIdentifier</key>
-    <string>com.pakorn.bytegone</string>
+    <string>com.example.bytegone</string>
     <key>CFBundleName</key>
     <string>Bytegone</string>
     <key>CFBundleDisplayName</key>

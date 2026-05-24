@@ -9,26 +9,15 @@ enum SafetyGuard {
         "/Applications", "/cores", "/Volumes",
     ]
 
-    /// User work directories — never touch (sourced from CLAUDE.md).
+    /// User work directories — never touch.
+    /// Customize this list with your own protected directories.
     static var workPaths: [String] {
         let home = FileManager.default.homeDirectoryForCurrentUser.path
         return [
             "\(home)/Documents/Workspace",
-            "\(home)/Documents/Workspace.nosync",
-            "\(home)/Documents/Obsidian Vault",
-            "\(home)/Documents/Personal Document",
-            "\(home)/Documents/Specification",
-            "\(home)/Documents/Assets",
-            "\(home)/Documents/E-Commerce",
-            "\(home)/Documents/Claude",
-            "\(home)/Desktop/Cowork",
+            "\(home)/Documents/Projects",
             "\(home)/Desktop/Projects",
-            "\(home)/Desktop/AWS-Certification",
-            "\(home)/Desktop/AllPay",
-            "\(home)/Desktop/CPO-Leasing",
-            "\(home)/Desktop/Migration",
-            "\(home)/Desktop/Documents",
-            "\(home)/Desktop/Screenshots",
+            "\(home)/Desktop/Work",
         ]
     }
 

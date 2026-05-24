@@ -106,5 +106,5 @@ Bytegone is a macOS menu-bar utility that finds reclaimable disk space and moves
 
 - No network connections. Nothing leaves the Mac.
 - Scan results are in-memory only; not persisted to disk.
-- Schedule config and last-run history stored in `UserDefaults` under `com.pakorn.bytegone`.
+- Schedule config and last-run history stored in `UserDefaults` under `com.example.bytegone`.
 - Only file sizes and modification dates are read — file contents are never inspected.

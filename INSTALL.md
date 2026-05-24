@@ -63,5 +63,5 @@ Click **Schedule** in the sidebar if you want it to clean up automatically on a 
 
 Drag `Bytegone.app` from `/Applications` to the Trash. To remove its preferences and schedule history too:
 ```sh
-defaults delete com.pakorn.bytegone
+defaults delete com.example.bytegone
 ```

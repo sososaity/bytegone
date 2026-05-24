@@ -37,25 +37,13 @@ These are matched with `hasPrefix`, so `/System/Library/...` is blocked just as 
 
 ### 2. Work directories (absolute prefix match)
 
-Sourced from `CLAUDE.md` and resolved against the user's home directory:
+Customize this list with your own protected directories in `SafetyGuard.workPaths`:
 
 ```
 ~/Documents/Workspace
-~/Documents/Workspace.nosync
-~/Documents/Obsidian Vault
-~/Documents/Personal Document
-~/Documents/Specification
-~/Documents/Assets
-~/Documents/E-Commerce
-~/Documents/Claude
-~/Desktop/Cowork
+~/Documents/Projects
 ~/Desktop/Projects
-~/Desktop/AWS-Certification
-~/Desktop/AllPay
-~/Desktop/CPO-Leasing
-~/Desktop/Migration
-~/Desktop/Documents
-~/Desktop/Screenshots
+~/Desktop/Work
 ```
 
 ### 3. Sensitive patterns (substring match)

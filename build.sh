@@ -3,7 +3,7 @@
 set -euo pipefail
 
 APP_NAME="Bytegone"
-BUNDLE_ID="com.pakorn.bytegone"
+BUNDLE_ID="com.example.bytegone"
 DIST_DIR="dist"
 APP_DIR="${DIST_DIR}/${APP_NAME}.app"
 

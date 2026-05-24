@@ -21,3 +21,6 @@ scripts/request-certificate.sh
 infra/landing-stack.yaml
 infra/dns-stack.yaml
 infra/contact.json
+
+# Claude Code project instructions (contains personal paths and secrets)
+CLAUDE.md

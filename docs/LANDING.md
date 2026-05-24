@@ -128,13 +128,7 @@ Category accent colors in the landing page must match `CleanupCategory.accent` i
 
 ## Donation link
 
-The support section links to `SupportLink.url`:
-
-```
-https://buymeacoffee.com/pakortra
-```
-
-Defined in `Sources/Bytegone/SupportLink.swift`. Update both files together if the URL changes.
+The support section links to `SupportLink.url`. Update `Sources/Bytegone/SupportLink.swift` with your own donation URL, or remove the prompt if you don't need it.
 
 ---
 
