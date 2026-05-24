@@ -7,6 +7,7 @@ A **free, open-source macOS disk cleaner** built with SwiftUI. Bytegone safely s
 ![Platform](https://img.shields.io/badge/Platform-macOS%2014%2B-blue)
 ![Language](https://img.shields.io/badge/Swift-5.9%2B-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
+[![Release](https://img.shields.io/github/v/release/sososaity/bytegone)](https://github.com/sososaity/bytegone/releases)
 
 ## What is Bytegone?
 
@@ -25,9 +26,14 @@ Unlike command-line tools that use `rm`, Bytegone **only moves items to Trash** 
 | **Menu Bar Integration** | Live gauge, top categories, schedule strip, and quick scan from the menu bar |
 | **Safety First** | Hard-coded blocklist for system paths, work directories, and sensitive files |
 
-## Quick Start
+## Download
 
-Build from source:
+Get the latest release:
+
+- [**Bytegone.dmg**](https://github.com/sososaity/bytegone/releases/latest/download/Bytegone.dmg) — Recommended, double-click to open
+- [**Bytegone.zip**](https://github.com/sososaity/bytegone/releases/latest/download/Bytegone.zip) — Lightweight alternative
+
+Or build from source:
 
 ```sh
 ./build.sh
