@@ -5,3 +5,19 @@ dist/
 *.xcworkspace
 DerivedData/
 .DS_Store
+
+# Landing page and deployment artifacts
+landing.html
+og-image.png
+screenshort/
+screenshot/
+
+# Deployment scripts and infrastructure
+scripts/deploy-landing.sh
+scripts/deploy-stack.sh
+scripts/deploy-dns.sh
+scripts/register-domain.sh
+scripts/request-certificate.sh
+infra/landing-stack.yaml
+infra/dns-stack.yaml
+infra/contact.json
