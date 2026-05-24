@@ -1,0 +1,33 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Provide clear steps to reproduce the issue.
+      placeholder: |
+        1. Open Bytegone
+        2. Click Scan
+        3. ...
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: macOS version
+      placeholder: "e.g. macOS 15.1"
+  - type: input
+    attributes:
+      label: Bytegone version
+      placeholder: "e.g. 1.0"
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Screenshots, crash logs, or any other context.
