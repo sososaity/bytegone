@@ -24,3 +24,7 @@ infra/contact.json
 
 # Claude Code project instructions (contains personal paths and secrets)
 CLAUDE.md
+.claude/
+
+# GitHub Actions (requires workflow scope to push)
+.github/workflows/
