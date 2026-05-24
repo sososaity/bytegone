@@ -51,6 +51,10 @@ Requirements: **macOS 14+**, Xcode Command Line Tools (`xcode-select --install`)
 
 **Items are moved to Trash, never deleted directly** — and the [`SafetyGuard`](Sources/Bytegone/SafetyGuard.swift) rejects anything under `/System`, `/Library`, `/usr`, `/Applications`, your work directories, and any path containing `.git`, `.env`, `.ssh`, credentials, or `node_modules`.
 
+## Support
+
+If Bytegone saved you some disk space, consider [buying me a coffee](https://buymeacoffee.com/pakortra).
+
 ## License / use
 
 Personal project. No warranty — review [docs/SAFETY.md](docs/SAFETY.md) before using on machines with irreplaceable work.
